@@ -1,0 +1,21 @@
+ヒデ@LAPTOP-4P7TLHNA MINGW64 ~/Desktop/samurai-terakoya/git_kihon/git_challenge (main)
+$ git add hello_world.txt
+
+ヒデ@LAPTOP-4P7TLHNA MINGW64 ~/Desktop/samurai-terakoya/git_kihon/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 08acdee] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Desktop/samurai-terakoya/git_kihon/git_challenge/hello_world.txt
+
+ヒデ@LAPTOP-4P7TLHNA MINGW64 ~/Desktop/samurai-terakoya/git_kihon/git_challenge (main)
+$ git add hello_world.txt
+
+ヒデ@LAPTOP-4P7TLHNA MINGW64 ~/Desktop/samurai-terakoya/git_kihon/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main b5bd542] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+ヒデ@LAPTOP-4P7TLHNA MINGW64 ~/Desktop/samurai-terakoya/git_kihon/git_challenge (main)
+$ git log --oneline
+b5bd542 (HEAD -> main) 日本語訳を追記
+08acdee hello_world.txtを追加
